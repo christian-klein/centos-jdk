@@ -12,11 +12,11 @@
 
 2. Build the container:
 
-   `docker build -t rohirrim70/centos-jdk -f jdk-Docker.build .`
+   `docker build -t rohirrim70/centos-jdk -f Dockerfile .`
 
 3. Start the container:
 
-   `docker run -h rohirrim70/CentOSJava`
+   `docker run -h rohirrim70/centos-jdk`
 
 You can now push your instance into your private repository on Docker-Hub or a repository you run yourself.
 
